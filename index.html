@@ -58,26 +58,58 @@
       <!-- section where the email of someone get verified if he is invited or not, using array -->
       <section id="mail" class="row justify-content-center pads">
         <div class="col-10 ">
-          <div class="box">
+          <div class="box pads">
             <form class="form-inline row justify-content-around pads text-center">
-              <div class="txtbox col-12">
-                <h2 class=>Documentazione</h2>
+
+              <div class="txtbox col-12 col-md-5">
+                <h2>Documentazione</h2>
                 <p>Inserisci la tua mail per vedere se <br> sei uno degli invitati </p>
               </div>
 
-              <div class="form-group col-5 ">
-                 <input type="text" class="form-control" id="emailInput" placeholder="email@esempio.it">
+              <div class="col-12 col-md-3 margs text-center">
+                <h4>Email degli invitati</h4>
+                <ul class="list-unstyled ">
+                  <li>a@gmail.com</li>
+                  <li>b@gmail.com</li>
+                  <li>c@gmail.com</li>
+                  <li>d@gmail.com</li>
+                  <li>e@gmail.com</li>
+                </ul>
               </div>
-              <a class="btn btn-outline-dark col-3" href="#mail" onclick="verifica()">Verifica</a>
+
+              <div class="form-group col-5">
+                 <input type="text" class="form-control" id="emailInput"  placeholder="email@esempio.it">
+              </div>
+              <a class="btn btn-outline-dark col-3" href="#mail" onclick="verifica(); window.location.reload()">Verifica</a>
+
             </form>
-
           </div>
-
         </div>
 
       </section>
       <!-- Roll the dice game with 2 button (onclick funtion i think) -->
-      <section id="dadi" class="row">
+      <section id="dadi" class="row pads">
+        <div class="col-10 pads">
+          <div class="container-fluid">
+            <div class="row justify-content-center align-items-around">
+              <div class="col-5">
+                <div class="box">
+
+                </div>
+
+              </div>
+              <div class="col-5">
+                <div class="box">
+
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
 
       </section>
     </article>

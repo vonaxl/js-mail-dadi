@@ -16,6 +16,9 @@ h2{
 .pads {
   padding: 1rem;
 }
+.margs{
+  margin: 1rem 0;
+}
 /* universal class */
 /* header  */
 /* nav */
@@ -57,7 +60,6 @@ article section{
 }
 
 #mail .box{
-  height: 50vh;
   border: 2px solid white;
   width: 100%;
   position: relative;
@@ -68,11 +70,12 @@ article section{
   width: 100%;
 }
 #mail .btn {
-    color: #66fcf1;
-
+  color: #66fcf1;
 }
 
-
+#dadi .box{
+ width: 100%;
+}
 
 
 
