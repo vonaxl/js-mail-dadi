@@ -16,15 +16,15 @@ h2{
 .pads {
   padding: 1rem;
 }
-.btn{
-  border: #66fcf1;
-  color: #66fcf1;
-}
 /* universal class */
 /* header  */
 /* nav */
 nav{
   background-color: #0B0C10;
+}
+nav .btn{
+  border: #66fcf1;
+  color: #66fcf1;
 }
 nav img{
   width: 70px;
@@ -50,10 +50,32 @@ nav img{
   bottom: 20%;
   position: absolute;
 }
+
+/* article sections part */
 article section{
-  height: 0vh;
-  background-color: darkgray;
+
 }
+
+#mail .box{
+  height: 50vh;
+  border: 2px solid white;
+  width: 100%;
+  position: relative;
+  color: white;
+}
+
+#mail .box .form-inline .form-group #emailInput{
+  width: 100%;
+}
+#mail .btn {
+    color: #66fcf1;
+
+}
+
+
+
+
+
 footer{
   background: #0B0C10;
 }
