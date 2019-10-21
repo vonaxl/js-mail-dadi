@@ -1,5 +1,8 @@
 
 /* general rules  */
+body{
+  background: #0B0C10;
+}
 ul{
   margin: 0;
 }
