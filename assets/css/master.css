@@ -19,6 +19,9 @@ h2{
 .margs{
   margin: 1rem 0;
 }
+.btn {
+  color: #66fcf1;
+}
 /* universal class */
 /* header  */
 /* nav */
@@ -72,16 +75,14 @@ article section{
 #mail .box .form-inline .form-group #emailInput{
   width: 100%;
 }
-#mail .btn {
-  color: #66fcf1;
-}
+
 #dadi{
   padding: 3rem 0;
 }
 #dadi .box{
  width: 100%;
  height: 30vh;
- background:  gray;
+ border: 2px solid white;
 }
 
 
