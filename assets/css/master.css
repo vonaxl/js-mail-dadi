@@ -108,3 +108,13 @@ footer ul li i:hover{
  #66fcf1
  #45a29e
  */
+@media (max-width:420px) {
+  h2{
+    font-size: 1.5rem;
+  }
+}
+@media (max-width:330px) {
+  h2{
+    font-size: 1.2rem;
+  }
+}
